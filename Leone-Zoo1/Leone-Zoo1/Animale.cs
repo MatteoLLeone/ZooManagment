@@ -24,9 +24,13 @@ namespace Leone_Zoo1
              return 0; 
         
         }
-        public double CalcolaCostoGestioneMensile()
+        public double CCalcolaVariazionePesoPercentuale()
         {
-            return 0;
+            double differenzaPeso = Peso - _pesoiniziale;
+            double percentuale = differenzaPeso * 100 / _pesoiniziale;
+
+
+            return percentuale;
         }
         public double 
 
